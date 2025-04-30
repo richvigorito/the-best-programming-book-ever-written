@@ -67,7 +67,7 @@ Inside the container, use `make`:
 
 ```bash
 # Run Pascal example
-make run-pascal FILE=chapters/2_sorting/insertion_sort.pas
+make run-pascal FILE=exercises/hello_world.pas
 
 # Run Python version
 make run-python FILE=chapters/2_sorting/insertion_sort.py
