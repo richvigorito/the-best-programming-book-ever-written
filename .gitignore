@@ -1,0 +1,34 @@
+# Pascal
+*.o
+*.ppu
+*.exe
+*.a
+*.out
+
+# C++
+*.out
+*.o
+*.obj
+*.gch
+*.so
+*.dll
+*.exe
+
+# Go
+bin/
+*.exe
+*.test
+*.out
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# General
+*.log
+*.tmp
+*.swp
+.DS_Store
+
