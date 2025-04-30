@@ -117,7 +117,7 @@ By translating and running this code across modern languages, this project:
 
 ## 🙏 Acknowledgements
 
-- **Niklaus Wirth** — For writing a masterpiece of clarity and structure.
+- **Dr. Niklaus Wirth** — For writing a masterpiece of clarity and structure.
 - **Dr. Herbert Mayer** — For inspiring this work and countless students with his passion and rigor.
 
 ---
