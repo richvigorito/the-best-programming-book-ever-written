@@ -1,6 +1,6 @@
 # The Best Programming Book Ever Written
 
-This project is a living, runnable exploration of Niklaus Wirth's classic book:  
+This project is a living, runnable, work in progress, exploration of Niklaus Wirth's classic book:  
 [**"Algorithms + Data Structures = Programs"**](https://www.amazon.com/Algorithms-Structures-Prentice-Hall-Automatic-Computation/dp/0130224189) — arguably the most elegant and timeless programming book ever written.
 
 ## 📚 Backstory
