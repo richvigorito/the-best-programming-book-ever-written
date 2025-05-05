@@ -91,4 +91,4 @@ This program is a hands-on example of:
 - Understanding division at a deep, bitwise level
 
 ---
-<< chapter 1, sec 1.6, page15
+> chapter 1, sec 1.6, page 15
