@@ -1,0 +1,44 @@
+# Chapter 2 – Sorting
+
+Sorting is a foundational topic in computer science that demonstrates the importance of algorithmic efficiency and data structure choice. Depending on whether you're sorting data stored in memory (arrays) or in external files, the approach and performance considerations differ dramatically.
+
+> The choice of a sorting algorithm often depends on the **structure of the data** and where it's stored—internal memory vs. external storage. The images below from the book illustrate these distinctions clearly:
+
+<p align="center">
+  <img src="/assets/array_sorting.png" alt="Array Sorting" width="400"/>
+</p>
+
+<p align="center">
+  <img src="/assets/file_sorting.png" alt="File Sorting" width="400"/>
+</p>
+
+---
+
+## 📐 A Note on Big O Notation
+
+Big O notation describes how an algorithm's **runtime or space requirements grow** as a function of input size. It's a way to **abstract away machine specifics** and focus on algorithm behavior:
+
+| Notation | Name              | Description |
+|----------|-------------------|-------------|
+| O(1)     | Constant Time     | No dependency on input size. |
+| O(log n) | Logarithmic Time  | Input size reduced each step (e.g., binary search). |
+| O(n)     | Linear Time       | Time grows directly with input size. |
+| O(n²)    | Quadratic Time    | Often seen in naive nested loops, e.g., bubble sort. |
+| O(n log n) | Log-linear Time | Optimal time complexity for many sorts. |
+
+---
+
+## 🔢 Sorting Algorithms
+
+This chapter contains implementations of various sorting algorithms. Each subfolder contains code (in both Pascal and Python) and an explanation of how the algorithm works.
+
+### 📂 [Insertion Sort](./insertion_sort)
+- **Big O (Best):** O(n)
+- **Big O (Average/Worst):** O(n²)
+- **Description:** Builds the sorted array one item at a time by comparing each new element to the ones already sorted.
+
+> More sorting methods coming soon...
+
+---
+
+
