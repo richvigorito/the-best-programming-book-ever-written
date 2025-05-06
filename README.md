@@ -127,3 +127,7 @@ By translating and running this code across modern languages, this project:
 
 If you'd like to contribute translations, exercises, or improvements, PRs are welcome!
 
+---
+
+<sub>[Media and License Attribution](/REFERENCES.md)</sub>
+
