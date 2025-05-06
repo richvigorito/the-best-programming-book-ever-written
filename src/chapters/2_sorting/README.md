@@ -37,6 +37,23 @@ This chapter contains implementations of various sorting algorithms. Each subfol
 - **Big O (Average/Worst):** O(n²)
 - **Description:** Builds the sorted array one item at a time by comparing each new element to the ones already sorted.
 
+<!--
+### 📂 [Bubble Sort](./bubble_sort)
+- **Big O (Best):** O(n)
+- **Big O (Average/Worst):** O(n²)
+- **Description:** Repeatedly swaps adjacent elements if they’re in the wrong order. Very simple but inefficient.
+
+### 📂 [Tree Sort](./tree_sort)
+- **Big O (Best/Average):** O(n log n)
+- **Big O (Worst):** O(n²)
+- **Description:** Inserts elements into a binary search tree and then performs an in-order traversal.
+
+### 📂 [Partition Sort (Quick Sort)](./partition_sort)
+- **Big O (Best/Average):** O(n log n)
+- **Big O (Worst):** O(n²)
+- **Description:** Uses divide-and-conquer with a pivot to partition and sort subarrays recursively.
+-->
+
 > More sorting methods coming soon...
 
 ---
