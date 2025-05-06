@@ -25,7 +25,7 @@ Given an array of `n` elements:
 
 ---
 
-## ⏱️ Performance (Big O)
+## ⏱️ Performance 
 
 | Case        | Time Complexity | Description                         |
 |-------------|------------------|-------------------------------------|
@@ -41,4 +41,7 @@ Given an array of `n` elements:
 <p align="center">
   <img src="/assets/bubble_sort.png" alt="Bubble Sort Book Illustration" width="400"/>
 </p>
+
+> chapter 2, sec 2.2.3, page 65,66 
+> [Media and License Attribution](/REFERENCES.md)
 

@@ -27,7 +27,7 @@ Given an array of `n` elements:
 
 ---
 
-## ⏱️ Performance (Big O)
+## ⏱️ Performance
 
 | Case        | Time Complexity | Description                         |
 |-------------|------------------|-------------------------------------|
@@ -45,4 +45,7 @@ The illustration below is from the book and represents a conceptual view of arra
 <p align="center">
   <img src="/assets/insertion_sort.png" alt="Array Sorting Illustration" width="400"/>
 </p>
+
+> chapter 2, sec 2.2.2, page 63 
+> [Media and License Attribution](/REFERENCES.md)
 
