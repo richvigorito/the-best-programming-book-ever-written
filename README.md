@@ -1,7 +1,7 @@
 # The Best Programming Book Ever Written
 
 This project is a living, runnable, work in progress, exploration of Niklaus Wirth's classic book:  
-[**"Algorithms + Data Structures = Programs"**](https://www.amazon.com/Algorithms-Structures-Prentice-Hall-Automatic-Computation/dp/0130224189) — arguably the most elegant and timeless programming book ever written.
+[**"Algorithms + Data Structures = Programs"**](https://www.amazon.com/Algorithms-Structures-Prentice-Hall-Automatic-Computation/dp/0130224189) — arguably the most elegant and timeless programming book ever written; you can read it [here](https://www.cl72.org/110dataAlgo/Algorithms%20%20%20Data%20Structures%20=%20Programs%20%5BWirth%201976-02%5D.pdf)
 
 ## 📚 Backstory
 
@@ -83,23 +83,24 @@ make run-python FILE=chapters/2_sorting/insertion_sort.py
 
 ```
 src/
-├── chapters/
-│   ├── 1_fundamental_data_structures/
-│   ├── 2_sorting/
-│   │   ├── insertion_sort.pas
-│   │   └── insertion_sort.py
-│   ├── 3_recursive_algorithms/
-│   │   ├── factorial.pas
-│   │   └── fact.py
-│   ├── 4_dynamic_information_structures/
-│   └── 5_language_strutures_and_compilers/
-├── exercises/
-│   ├── hello_world.pas
-│   ├── linear_search.pas
-│   └── linked_list.pas
-├── Dockerfile
-├── Makefile
-└── docker-compose.yml
+    ├── chapters
+    │   ├── 1_fundamental_data_structures
+    │   │   └── negative_power_of_2
+    │   ├── 2_sorting
+    │   ├── 3_recursive_algorithms
+    │   ├── 4_dynamic_information_structures
+    │   └── 5_language_strutures_and_compiles
+    ├── exercises
+    │   ├── hello_world.pas
+    │   ├── linear_search.pas
+    │   └── linked_list.pas
+    └── pascal_tutorials
+        ├── arr.pas
+        ├── procs_funcs.pas
+        ├── records.pas
+        ├── stmts.pas
+        └── var_types.pas
+
 ```
 
 ---

@@ -91,4 +91,10 @@ This program is a hands-on example of:
 - Understanding division at a deep, bitwise level
 
 ---
+### 📷 Snapshot from the Book
+This program is featured in the original text and shows how to compute negative powers of 2 using only integer arithmetic.
+
+<p align="center">
+  <img src="./assets/neg_pow_2.png" alt="Negative Power of 2 Pascal Program">
+</p>
 > chapter 1, sec 1.6, page 15
