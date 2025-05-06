@@ -2,9 +2,9 @@
 
 This elegant Pascal program simulates computing the decimal representation of negative powers of 2 — like:
 
-- `2⁻¹ = 0.5`
-- `2⁻² = 0.25`
-- `2⁻³ = 0.125`
+- `2^(-1) = 0.5`
+- `2^(-2) = 0.25`
+- `2^(-3) = 0.125`
 - …
 
 ### ❓ What's the Goal?
