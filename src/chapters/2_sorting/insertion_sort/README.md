@@ -47,5 +47,6 @@ The illustration below is from the book and represents a conceptual view of arra
 </p>
 
 > chapter 2, sec 2.2.2, page 63 
-> [Media and License Attribution](/REFERENCES.md)
+
+[Media and License Attribution](/REFERENCES.md)
 

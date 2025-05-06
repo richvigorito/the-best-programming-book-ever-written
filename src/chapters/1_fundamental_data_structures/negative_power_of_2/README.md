@@ -98,5 +98,6 @@ This program is featured in the original text and shows how to compute negative 
   <img src="/assets/neg_pow_2.png" alt="Negative Power of 2 Pascal Program">
 </p>
 > chapter 1, sec 1.6, page 15
-> [Media and License Attribution](/REFERENCES.md)
+
+[Media and License Attribution](/REFERENCES.md)
 

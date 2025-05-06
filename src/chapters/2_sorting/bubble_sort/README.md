@@ -43,5 +43,6 @@ Given an array of `n` elements:
 </p>
 
 > chapter 2, sec 2.2.3, page 65,66 
-> [Media and License Attribution](/REFERENCES.md)
+
+[Media and License Attribution](/REFERENCES.md)
 
