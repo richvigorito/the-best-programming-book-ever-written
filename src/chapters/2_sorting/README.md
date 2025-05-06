@@ -59,3 +59,4 @@ This chapter contains implementations of various sorting algorithms. Each subfol
 ---
 
 
+[Media and License Attribution](/REFERENCES.md)
