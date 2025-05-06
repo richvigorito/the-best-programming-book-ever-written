@@ -37,9 +37,9 @@ This maintains the sorted portion at the back and the unsorted portion as a vali
 ## 📘 Book Reference
 
 <p align="center">
-  <img src="/assets/heap_sort.page.73.png" alt="Heap Sort Book Illustration" width="400"/>
+  <img src="/assets/heap_sort.pg73.png" alt="Heap Sort Book Illustration" width="400"/>
 
-  <img src="/assets/heap_sort.page.74.png" alt="Heap Sort Book Illustration" width="400"/>
+  <img src="/assets/heap_sort.pg74.png" alt="Heap Sort Book Illustration" width="400"/>
 </p>
 
 > chapter 2, sec 2.2.5, page 73,74
