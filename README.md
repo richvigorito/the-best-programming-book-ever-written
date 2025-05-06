@@ -129,5 +129,5 @@ If you'd like to contribute translations, exercises, or improvements, PRs are we
 
 ---
 
-<sub>[Media and License Attribution](/REFERENCES.md)</sub>
+[Media and License Attribution](/REFERENCES.md)
 
