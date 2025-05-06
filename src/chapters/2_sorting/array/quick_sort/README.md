@@ -39,6 +39,6 @@ Its power lies in the partitioning step and **divide-and-conquer** strategy.
   <img src="/assets/quick_sort.png" alt="Quick Sort Book Illustration" width="400"/>
 </p>
 
-> chapter 2, sec 2.2.X, page XX
+> chapter 2, sec 2.2.6, page 76,77
 
 <sub>[Media and License Attribution](/REFERENCES.md)</sub>
