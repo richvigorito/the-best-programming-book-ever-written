@@ -27,6 +27,20 @@ MIT Press / Prentice Hall, 1976
 - License: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)  
 - Author: Swfung8
 
+### Heap Sort  
+![Heap Sort](https://upload.wikimedia.org/wikipedia/commons/1/1b/Sorting_heapsort_anim.gif)  
+- Source: Wikimedia Commons  
+- License: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)  
+- Author: Swfung8
+
+### Quick Sort  
+![Quick Sort](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)  
+- Source: Wikimedia Commons  
+- License: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)  
+- Author: Swfung8
+
+
+
 ---
 
 ## 📜 License Summary for Media
