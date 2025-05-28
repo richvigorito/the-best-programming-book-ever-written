@@ -10,7 +10,7 @@
 The Hilbert Curve is a fractal, that is curve which repeats itself; which is a perfect task for recursion. The hilbert curve has 3 shapes, all of which are comprised of the lower level. See image below:
 
 <p align="center">
-  <img src="/assets/hilbert_curve2.png" alt="Recursion" width="400"/>
+  <img src="/assets/hilbert_curve1.png" alt="Recursion" width="400"/>
 </p>
 
 The steps are a level-1 hilbert curve: 
