@@ -33,4 +33,5 @@ Wirth gives several reasons and patterns where recursion is inappropriate:
 - When recursion causes deep call stacks and inefficiency.
 - If the problem follows simple iterative patterns (e.g., factorial, Fibonacci). Which is funny since Fibonacci is the poster child for recursion. run ``fact_test.py`` to clock both approaches.  
 
-
+---
+[Media and License Attribution](/REFERENCES.md)
