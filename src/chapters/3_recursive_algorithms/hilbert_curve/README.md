@@ -1,42 +1,79 @@
-# Hilbert Curve
+# 🌀 Hilbert Curve
 
 <p align="center">
   <img src="/assets/hilbert_curve3.png" alt="Recursion" width="400"/>
 </p>
-> output of of running included hilter_curve.py program
+
+> 🎯 Output of the included `hilbert_curve.py` program
 
 ---
 
-The Hilbert Curve is a fractal, that is curve which repeats itself; which is a perfect task for recursion. The hilbert curve has 3 shapes, all of which are comprised of the lower level. See image below:
+## 🔁 What Is a Hilbert Curve?
+
+The **Hilbert Curve** is a fractal — a geometric shape that repeats itself at smaller scales — making it an ideal task for recursion. It consists of three base shapes, each constructed from a version of itself.
 
 <p align="center">
-  <img src="/assets/hilbert_curve1.png" alt="Recursion" width="400"/>
+  <img src="/assets/hilbert_curve1.png" alt="Hilbert Curve Breakdown" width="400"/>
 </p>
-> chapter 3, sec 3.3, page 130,131
 
-The steps are a level-1 hilbert curve: 
+> 📖 From Chapter 3, Section 3.3 — Pages 130–131
 
-> Let y = 90 degree
-> 1) Rotate y degree towards the right
-> 2) Move step size
-> 3) Rotate y degree towards the left
-> 4) Move step size
-> 5) Rotate y degree towards the left
-> 6) Move step size
-> 7) Rotate y degree towards the right
+---
 
-And level-2:
+## 📐 Recursive Steps
 
-> 1) Rotate 90 degrees towards the right
-> 2) Create a hilbert curve at level 1 rotated by -y degrees (ie, y degrees in anticlockwise direction)
-> 3) Move step size
-> 4) Rotate y degrees towards the right
-> 5) Create a level 1 hilbert curve rotated by y degrees (ie, y degrees in clockwise direction)
-> 6) Rotate y degrees towards the left.
-> 7) Move step size
-> 8) Create a level 1 hilbert curve rotated by -y degrees
-> 9) Rotate y degrees towards the right
+### Level 1 Hilbert Curve
 
-Manually drawing this on pen and paper following steps make internalizing this structure/algorithm a little easier. 
+> Let **y = 90°**:
+> 
+> 1️⃣ Rotate y degrees **right**  
+> 2️⃣ Move forward one step  
+> 3️⃣ Rotate y degrees **left**  
+> 4️⃣ Move forward one step  
+> 5️⃣ Rotate y degrees **left**  
+> 6️⃣ Move forward one step  
+> 7️⃣ Rotate y degrees **right**
+
+---
+
+### Level 2 Hilbert Curve
+
+> 1️⃣ Rotate 90° **right**  
+> 2️⃣ Draw level-1 Hilbert Curve rotated **-y** (left)  
+> 3️⃣ Move forward  
+> 4️⃣ Rotate 90° **right**  
+> 5️⃣ Draw level-1 Hilbert Curve rotated **+y** (right)  
+> 6️⃣ Rotate 90° **left**  
+> 7️⃣ Move forward  
+> 8️⃣ Draw level-1 Hilbert Curve rotated **-y**  
+> 9️⃣ Rotate 90° **right**
+
+---
+
+## ✍️ Pro Tip
+
+Manually drawing this on paper while following the recursive rules can help internalize how the structure unfolds. Recursion becomes a lot more intuitive when you can *see* it step-by-step.
+
+---
+
+## 🛠️ How to Run
+
+Run the Python file and follow the prompts:
+
+```bash
+python3 hilbert_curve.py
+```
+
+You'll be able to:
+- Set recursion **depth**
+- Control **drawing speed**
+- Add a **pause** between steps
+- Watch each recursive level draw in a **different color**
+- See printed logs showing how recursion flows 🔍
+
+---
+
+## 📚 References
 
 [Media and License Attribution](/REFERENCES.md)
+Media and License Attribution](/REFERENCES.md)
