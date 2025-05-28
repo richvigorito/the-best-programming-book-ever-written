@@ -12,7 +12,7 @@ In 2013, while taking an Algorithms course at Portland State University the prof
 </div>
 
 
-[Niklaus Wirth](https://en.wikipedia.org/wiki/Niklaus_Wirth) (the creator of Pascal, Modula, and Oberon) wrote this book in 1976. It teaches programming by connecting algorithms and data structures directly — not as separate topics — but as co-dependent parts of programs. This idea still shapes modern programming languages and pedagogy today.
+[Niklaus Wirth](https://en.wikipedia.org/wiki/Niklaus_Wirth) (the creator of Pascal, Modula, and Oberon) wrote this book in 1976. It teaches programming by connecting algorithms and data structures directly — not as separate topics — but as co-dependent parts of programs. This idea still shapes modern programming and still very relevant today. And imo our bleek/unfortunate future if we don't understand our foundations: prompts + ai = shitty programs. 
 
 While the original examples are written in **Pascal**, this project translates many of them into **Python**, **C++**, and **Go**, giving learners a cross-language view of core ideas.
 
@@ -26,11 +26,11 @@ While the original examples are written in **Pascal**, this project translates m
 - 📂 `exercises/`  
   Hands-on Pascal exercises with stubbed code meant to be filled in (great for beginners or students).
 
-Each code example is mirrored in:
+The goal is for each code example to mirror in:
 - Pascal (original)
-- Python (clear, modern syntax)
-- C++ (for performance-minded or systems learners)
-- Go (strong typing + modern structure)
+- Python
+- C++
+- Go 
 
 ---
 
@@ -85,7 +85,6 @@ make run-python FILE=chapters/2_sorting/insertion_sort.py
 src/
     ├── chapters
     │   ├── 1_fundamental_data_structures
-    │   │   └── negative_power_of_2
     │   ├── 2_sorting
     │   ├── 3_recursive_algorithms
     │   ├── 4_dynamic_information_structures
@@ -113,6 +112,7 @@ By translating and running this code across modern languages, this project:
 - Honors foundational CS thinking
 - Makes Wirth’s insights accessible to today’s programmers
 - Provides a clear, cross-language reference for teaching
+- With code bootcamps and now AI, it's too easy to produce code with fully understanding what it doing. Doing this project is bringing me joy; if just 1 person stumbled on this and found it useful would add to the fulfillment.
 
 ---
 
