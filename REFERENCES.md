@@ -40,6 +40,9 @@ MIT Press / Prentice Hall, 1976
 - Author: Swfung8
 
 
+## 📽️ External Links
+### Hilbert Curves
+[geeksforgeeks](https://www.geeksforgeeks.org/python-hilbert-curve-using-turtle/)
 
 ---
 

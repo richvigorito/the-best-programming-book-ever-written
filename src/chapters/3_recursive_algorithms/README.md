@@ -34,4 +34,5 @@ Wirth gives several reasons and patterns where recursion is inappropriate:
 - If the problem follows simple iterative patterns (e.g., factorial, Fibonacci). Which is funny since Fibonacci is the poster child for recursion. run ``fact_test.py`` to clock both approaches.  
 
 ---
+> chapter 3, sec 3.1, page 128
 [Media and License Attribution](/REFERENCES.md)
