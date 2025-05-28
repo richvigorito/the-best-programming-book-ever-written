@@ -12,6 +12,7 @@ The Hilbert Curve is a fractal, that is curve which repeats itself; which is a p
 <p align="center">
   <img src="/assets/hilbert_curve1.png" alt="Recursion" width="400"/>
 </p>
+> chapter 3, sec 3.3, page 130,131
 
 The steps are a level-1 hilbert curve: 
 
@@ -26,15 +27,15 @@ The steps are a level-1 hilbert curve:
 
 And level-2:
 
-> Rotate 90 degrees towards the right
-> Create a hilbert curve at level 1 rotated by -y degrees (ie, y degrees in anticlockwise direction)
-> Move step size
-> Rotate y degrees towards the right
-> Create a level 1 hilbert curve rotated by y degrees (ie, y degrees in clockwise direction)
-> Rotate y degrees towards the left.
-> Move step size
-> Create a level 1 hilbert curve rotated by -y degrees
-> Rotate y degrees towards the right
+> 1) Rotate 90 degrees towards the right
+> 2) Create a hilbert curve at level 1 rotated by -y degrees (ie, y degrees in anticlockwise direction)
+> 3) Move step size
+> 4) Rotate y degrees towards the right
+> 5) Create a level 1 hilbert curve rotated by y degrees (ie, y degrees in clockwise direction)
+> 6) Rotate y degrees towards the left.
+> 7) Move step size
+> 8) Create a level 1 hilbert curve rotated by -y degrees
+> 9) Rotate y degrees towards the right
 
 Manually drawing this on pen and paper following steps make internalizing this structure/algorithm a little easier. 
 
