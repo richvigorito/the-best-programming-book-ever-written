@@ -3,7 +3,7 @@
 def get_islands(grid):
 
     rows, cols = len(grid), len(grid[0])
-    existing_island_cordinates = set()
+    existing_island_cordinates = []
     islands = []
 
     for r in range(rows):
@@ -18,7 +18,7 @@ def get_islands(grid):
                         0 <= cur_row < rows and 0 <= cur_col < cols and
                         int(grid[cur_row][cur_col]) == 1 and (cur_row, cur_col) not in existing_island_cordinates
                     ):
-                        existing_island_cordinates.add((cur_row, cur_col))
+                        existing_island_cordinates.append((cur_row, cur_col))
                         ## push neigbhoring cords onto stack for consideration
                         island.append((cur_row, cur_col))
                         stack.append((cur_row + 1, cur_col))

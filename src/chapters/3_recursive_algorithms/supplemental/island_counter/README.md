@@ -19,8 +19,8 @@ Here’s what I got:
 
 ```bash
 ~/Development/the-best-programming-book-ever-written/src/chapters/3_recursive_algorithms/supplemental/island_counter (main) $ python3 benchmark.py
-All test cases passed.
+All test cases passed!
 Benchmarking...
-Recursive took 3.88 seconds for 50,000 runs on 11 grids (550,000 calls)
-Iterative took 3.02 seconds for 50,000 runs on 11 grids (550,000 calls)
+Recursive took 3.75 seconds for 50000 for 11 grids, ie 550000 calls
+Iterative took 2.78 seconds for 50000 for 11 grids, ie 550000 calls
 ```
