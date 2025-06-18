@@ -9,13 +9,14 @@ def hilbert(level, angle, step, pause_time, depth, color_levels, indent=0):
 
     prefix = "  " * indent
     print(f"{prefix}Enter level {level}: right({angle})")
-    pencolor(color_levels[depth - level])
+    #pencolor(color_levels[depth - level])
     right(angle)
     time.sleep(pause_time)
 
     hilbert(level - 1, -angle, step, pause_time, depth, color_levels, indent + 1)
 
     print(f"{prefix}level {level}: forward({step})")
+    pencolor("red")
     forward(step)
     time.sleep(pause_time)
 
@@ -26,6 +27,7 @@ def hilbert(level, angle, step, pause_time, depth, color_levels, indent=0):
     hilbert(level - 1, angle, step, pause_time, depth, color_levels, indent + 1)
 
     print(f"{prefix}level {level}: forward({step})")
+    pencolor("green")
     forward(step)
     time.sleep(pause_time)
 
@@ -36,6 +38,7 @@ def hilbert(level, angle, step, pause_time, depth, color_levels, indent=0):
     time.sleep(pause_time)
 
     print(f"{prefix}level {level}: forward({step})")
+    pencolor("blue")
     forward(step)
     time.sleep(pause_time)
 
