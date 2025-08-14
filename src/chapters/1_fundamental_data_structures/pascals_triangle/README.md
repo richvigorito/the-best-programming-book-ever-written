@@ -9,6 +9,8 @@ Pascal’s Triangle is a triangular arrangement of numbers where:
 - The outer edges are always 1.
 - Each inner value is the sum of the two numbers above it.
 - Row n contains the binomial coefficients for (a + b)^n.
+
+```
         1
        1 1
       1 2 1
@@ -16,7 +18,7 @@ Pascal’s Triangle is a triangular arrangement of numbers where:
     1 4 6 4 1
    1 5 10 10 5 1
   1 6 15 20 15 6 1
-
+```
 
 Example:
 Row 4 → 1 4 6 4 1 corresponds to (a + b)^4 = a⁴ + 4a³b + 6a²b² + 4ab³ + b⁴.
