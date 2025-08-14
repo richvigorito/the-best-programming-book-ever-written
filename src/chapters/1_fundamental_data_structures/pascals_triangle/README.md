@@ -46,11 +46,11 @@ triangle[row, col] := triangle[row - 1, col - 1] + triangle[row - 1, col]
 4. **Storage Layout**:
 In a fixed-size array, you might allocate a maximum size and leave unused cells empty.
 Example for n = 5 (unused cells as `_`):
-
+```
 Row 0: 1 _ _ _ _
 Row 1: 1 1 _ _ _
 Row 2: 1 2 1 _ _
 Row 3: 1 3 3 1 _
 Row 4: 1 4 6 4 1
-
+```
 ---

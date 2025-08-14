@@ -26,11 +26,32 @@ __pycache__/
 *.pyo
 *.pyd
 
-# General
+# === General ===
 *.log
-*.tmp
+*.out
+*.o
+*.obj
+*.so
+*.a
+*.exe
+*.dll
+*.class
+*.pyc
+*.pyo
+*.pyd
+*.stackdump
 *.swp
-.DS_Store
+*.swo
+*.swi
+*.swt
+*.swm
+*.swn
+*.DS_Store
+*.env
+*.env.local
+*.env.production
+*.bak
+*~
 
 # Environments
 .env
